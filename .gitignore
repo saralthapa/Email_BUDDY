@@ -1,0 +1,104 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled files
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Google OAuth Credentials
+# ==========================
+credentials.json
+client_secret.json
+token.json
+
+# Service Account Keys
+*.pem
+*.key
+*.p12
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Mypy / Ruff / Pyright
+# ==========================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==========================
+# Streamlit (optional)
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# SQLite Database
+# ==========================
+*.sqlite3
+*.db
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+
+# ==========================
+# OS Files
+# ==========================
+Thumbs.db
